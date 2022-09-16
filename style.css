@@ -1,10 +1,10 @@
-#mem-game {
+#main-game {
     display: grid;
     grid-template-columns: 140px 140px 140px;
     grid-template-rows: 140px 140px;
     grid-gap: 10px;
-    max-width: 420px;
-    margin: 0 auto;
+    max-width: 140px;
+    margin: auto;
   }
   
   .mem-card {
