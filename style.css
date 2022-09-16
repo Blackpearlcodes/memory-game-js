@@ -1,0 +1,17 @@
+#mem-game {
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px;
+    grid-gap: 10px;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  
+  .mem-card {
+    padding: 10px;
+    cursor: pointer;
+    background: #9be1f5;
+  }
+  .mem-card.open { background: #9be1f5; }
+  .mem-card.right { background: #9be1f5; }
+  .mem-card.wrong { background: #ffb6b6; }
